@@ -1,0 +1,145 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.leftfix {
+    float: left;
+}
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* #region nav */
+.nav {
+    height: 29px;
+    background-color: #EEE;
+}
+.nav li {
+    float: left;
+    width: 110px;
+    height: 29px;
+    line-height: 29px;
+    color: #000;
+    border-right: 1px #DDD solid;
+}
+.nav li:hover {
+    background-color: #CCC;
+}
+.nav a:first-child li{
+    border-left: 1px #DDD solid;
+}
+.nav a {
+    height: 29px;
+    
+}
+.nav img {
+    height: 15px;
+    width: 15px;
+    margin: 7px 8px 7px 0;
+    float: left;
+    padding-left: 10px;
+}
+/* #endregion nav */
+
+/* #region header */
+header {
+    background-color: skyblue;
+}
+#zzgnav {
+    font-size: 35px;
+    font-weight: bold;
+    width: 300px;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 15px;
+}
+.search {
+    height: 80px;
+    width: 550px;
+    margin: 20px auto 0 auto;
+    font-size: 0;
+}
+.search input {
+    width: 400px;
+    height: 35px;
+    border: 1px rgb(78, 110, 242) solid ;
+    font-size: 20px;
+    padding: 0 10px;
+}
+.search button {
+    width: 100px;
+    height: 37px;
+    background-color: rgb(78, 110, 242);
+    color: #fff;
+    vertical-align: top;
+}
+.search button:hover {
+    cursor: pointer;
+}
+/* #endregion header */
+
+/* #region main */
+main dt {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+main dd {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+main dl {
+    width: 400px;
+    float: left;
+    border-top: 1px solid #AAA;
+}
+main div div:last-child dl{
+    width: 800px;
+}
+main div div:first-child dl{
+    border: 0;
+}
+main img {
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin: 15px 5px 15px 0;
+}
+/* #endregion main */
+
+/* #region footer */
+footer {
+    background-color: #EEE;
+    height: 100px;
+}
+#filings {
+    width: 400px;
+    margin: 0 auto;
+}
+#filings div {
+    font-size: 14px;
+    float: left;
+    margin: 10px 20px 10px 20px;
+    color: #000;
+}
+#msg {
+    width: 280px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #000;
+}
+#copyright {
+    width: 150px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #000;
+    margin-top: 10px;
+}
+/* #endregion footer */
